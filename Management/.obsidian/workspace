@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "deb32e5430e5b63e",
+    "type": "split",
+    "children": [
+      {
+        "id": "784b242b2f572226",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "component/bar/Toolbar.js.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b42306358f9f277d",
+    "type": "split",
+    "children": [
+      {
+        "id": "94b09ff50a09a2ce",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "24c9a125bc48f8b5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a4d98220fdab0275",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "aebb8d8a18bab9df",
+    "type": "split",
+    "children": [
+      {
+        "id": "fe689cfb7a2aa129",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ed935876bd60d7e6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "component/bar/Toolbar.js.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 178
+  },
+  "active": "784b242b2f572226",
+  "lastOpenFiles": [
+    "component/bar/Toolbar.js.md",
+    "component/header/Header.js.md",
+    "page/Main/Home/Device.js.md",
+    "component/header/Header.js 1.md",
+    "page/Main/Home.js.md",
+    "page/Main/Login.js.md",
+    "page/Main.js.md",
+    "App.js.md",
+    "modules/modules.index.js.md",
+    "index.js.md"
+  ]
+}
