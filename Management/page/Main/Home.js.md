@@ -1,5 +1,5 @@
 ## 설정
-- #### filteredItems ( useState 기본값 \[] )
+- #### filteredItems ( useState 기본값 \[])
 - #### isDesktop ( useMediaQuery )
 - #### isDesktop의 값이 참 / 거짓인지에 unitPerPage(페이지 당 디바이스 수) 값 결정
 	##### 				참일 경우 => 40으로 설정
@@ -13,12 +13,12 @@
 - #### getHome이라는 함수를 통해 deviceArray의 길이가 1 미만일 경우 api 호출하여 deviceArray에 저장
 - ### 카테고리 / 디바이스의 갯수 / 디바이스 목록페이지 번호의 변화가 생기면  HomeRendering을 호출 ( useEffect )
 ### HomeRendering
-- ##### focusedCategory에 따라 필터 O, deviceArray가 조건식을 충족하면 <[[/component/common/Item.js|Item]] /> 리턴
+- ##### focusedCategory에 따라 필터 O, deviceArray가 조건식을 충족하면 <[[Item.js|Item]] /> 리턴
 	#### focuesdCategory의 값이 "⌘"일 경우 =>필터x, 조건식 : index가 한 페이지당 유닛 수 x (현재 페이지 +1) 보다 작으며 index가 현재 페이지 x 페이지당 유닛 수 이상이면 true, 아니면 false
 	#### focuesdCategory의 값이 특정 카테고리일 경우 =>조건식 : deviceArray 속 device의 값이 카테고리와 일치하며 index가 한 페이지당 유닛 수 x (현재 페이지 +1) 보다 작으며 현재 페이지 x 페이지당 유닛 수 이상이면 true, 아니면 false ( array.map, if )
 
 ## return () 
-- #### <[[/component/bar/Toolbar.js|ToolBar]] type = "home"/> 표출
-- #### <[[/component/bar/CategoryBar.js|CategoryBar]] /> 표출
+- #### <[[Toolbar.js|ToolBar]] type = "home"/> 표출
+- #### <[[CategoryBar.js|CategoryBar]] /> 표출
 - #### filterdItems 길이가 1 미만인 경우에만 로딩중을 표시하기 위한 <Loading /> 출력
 - #### 디바이스 갯수에 따른 페이지 생성을 위한 <PageCountBox /> 출력

@@ -9,7 +9,7 @@
 - #### selectedDevice에서 id, device의 값을 따로 가져옴 (구조 분해 할당)
 - #### localStorage에서 "location" 키 값을 가진 value를 location에 담기 (.getItem)
 - #### deviceIconList에 여러가지 icon 담기
-- #### deviceList에 표출할 디바이스 종류별 형식 담기
+- #### deviceList에 [[Management/page/Main/Home/Device/index.js|표출할 디바이스 종류별 형식]] 담기
 - ### useEffect ()
 	- ### getDeviceData () 정의
 		- #### localStorage에서 deviceId 라는 키값을 가진 value를 불러아 id에 담기
@@ -29,9 +29,9 @@
 ## return()
 - #### device.information이 undifined일 경우 : <Loading /> 태그 출력
 	#### 그렇지 않을 경우 :  디바이스의 정보와 아이콘, 장소 이름, 헤더의 액츄에이터 설정값을 담아서<[[component/header/Header.js|Header]] /> 출력
-- #### 주소가 "/setting" 일 경우 : <ActuatorSetting /> 출력
-   #### 주소가 "/position" 일 경우 :  <PositionSetting /> 출력
-   #### 주소가 "/download" 일 경우 : <Download />출력
-   #### 주소가 "/" 일 경우 deviceScreenRendering 실행
+- #### 상세주소가 "/setting" 일 경우 : <[[ActuatorSetting.js|ActuatorSetting]] /> 출력
+   #### 상세주소가 "/position" 일 경우 :  <[[PositionSetting.js|PositionSetting]] /> 출력
+   #### 상세주소가 "/download" 일 경우 : <[[Download.js|Download]] />출력
+   #### 상세주소가 "/" 일 경우 deviceScreenRendering 실행
    (Routes) 	
    

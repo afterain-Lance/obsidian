@@ -32,7 +32,7 @@
 className="item-box"
 onClick={ itemEditable? () => { deleteItem() } : async () => { await selectItem() } }
 \<div className="device-icon">
-{iconList[mainType]}\</div>
+{iconList\[mainType]}\</div>
 \<div className="item-name">{
 locationInfo == ""
 ? "미지정"
