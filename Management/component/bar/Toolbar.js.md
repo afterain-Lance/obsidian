@@ -9,3 +9,6 @@
    #### device : <DeviceToolBar /> 
 ## return ()
 - #### types\[type] ? 을 통해 있는지 없는지에 따라서 toolbar의 출력 유무를 결정
+   #### DeviceToolBar (업데이트, 재부팅, 다운로드, 설정, 액츄에이터 설정, 좌표값 수정)
+   #### HomeToolBar (완료 / 편집) \[디바이스의 추가/제거]
+   #### SettingToolBar (설정)
