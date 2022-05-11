@@ -9,7 +9,7 @@
 - #### selectedDevice에서 id, device의 값을 따로 가져옴 (구조 분해 할당)
 - #### localStorage에서 "location" 키 값을 가진 value를 location에 담기 (.getItem)
 - #### deviceIconList에 여러가지 icon 담기
-- #### deviceList에 [[Management/page/Main/Home/Device/index.js|표출할 디바이스 종류별 형식]] 담기
+- #### deviceList에 [[/page/Main/Home/Device/index.js|표출할 디바이스 종류별 형식]] 담기
 - ### useEffect ()
 	- ### getDeviceData () 정의
 		- #### localStorage에서 deviceId 라는 키값을 가진 value를 불러아 id에 담기

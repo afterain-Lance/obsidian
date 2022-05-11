@@ -1,1 +1,1 @@
-# _[[Management/index.js]] 실행_
+# [[index.js]] 실행
