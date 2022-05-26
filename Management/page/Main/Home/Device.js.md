@@ -1,7 +1,7 @@
 ## 설정
 - #### headerType 초기화 (useState 기본값 "")
 - ### useEffect ()
-	- ##### url을 /를 기준으로 쪼개서 배열에 저장
+	- #### url을 /를 기준으로 쪼개서 배열에 저장
 	- #### url배열의 3번째 값을 통해 hederType의 값 초기화 (useState)
 - #### navigate 사용 (useNavigation),
 - #### dispatch 사용 (userDispatch
